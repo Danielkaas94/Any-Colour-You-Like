@@ -1,0 +1,63 @@
+// Modifying these settings manually may cause problems within the game. You are applying changes here at your own risk.
+// You can delete this file and run the game to reset the default settings.
+!Resolution(i,i)
+!WindowOffset(i,i)
+!Monitor(i)            // -1 primary monitor
+!BPP(i)
+!FSAA(i)               // Full Screen AntiAliasing, 0 - none, higher is better
+!TexBPP(i)
+!TextureQuality(s)     // VeryLow, Low, High
+!Filtering(s)          // Bilinear, Trilinear, Anisotropic, AnisotropicTrilinear
+!GammaFloat(f)
+!MaxRefresh(i)
+!Shadows(s)            // Low, High
+!ShadowMapSize(i)
+!SpotShadowMapSize(i)
+!Lightmaps()
+!Fullscreen()
+!VSync()               // enable vertical sync
+!MaterialQuality(i)    // lower is better
+!WaterQuality(i)       // lower is better
+!GrassQuality(i)       // lower is better
+!FXQuality(i)          // higher is better
+!FXFadeLevel(i)        // 0-4 (lower is better)
+!EnvQuality(s)         // FullDynamic, RareDynamic, Static
+!ShaderPath(i)         // 0 - 1.1, 1 - 1.4, 2 - 2.0, 3 - 3.0, 4 - x360, 5 - 4.0, 6 - ps3
+!PostProcess(s)        // Simple, Normal
+!DisplayDeviceType(i,f,f,f,f)  //device type (LCD TV etc.): 0 - default
+!Curves(s)             // curves texture
+!VisRange(f,f)         
+!DisableScreenBorder() // Disable the hand-painted comic border around the edges of the screen
+!ForcedHorzFov(f)      // Forced horizontal field of view angle measured against 16:9 aspect ratio; 80-110 degrees, def. 82.72.
+//Partial support only. Use at your own risk.
+
+!RenderViewportProportion(i, i)      //Change aspect ratio and add/remove letterbox. 
+//RenderViewportProportion(-1, -1) - force full screen 
+//RenderViewportProportion(x, y) - maintain aspect ratio of x:y (default: 1280, 672)
+//RenderViewportProportion(0, 0) - set defaults, same as RenderViewportProportion(1280, 672)
+//Partial support only. Use at your own risk.
+
+Resolution(2560,1440)
+Monitor(0)
+BPP(24)
+FSAA(0)
+TexBPP(32)
+TextureQuality("High")
+VisRange(2.00, 4.00)
+Filtering("Anisotropic")
+Fullscreen()
+Shadows("High")
+ShadowMapSize(1024)
+SpotShadowMapSize(1024)
+Lightmaps()
+GammaFloat(0.85)
+MaxRefresh(60)
+MaterialQuality(0)
+FXQuality(3)
+FXFadeLevel(2)
+WaterQuality(0)
+GrassQuality(0)
+EnvQuality("FullDynamic")
+ShaderPath(3)
+DisplayDeviceType(0,0.000000,1.000000,1.000000,1.000000)
+ForcedHorzFov(100.000000)
