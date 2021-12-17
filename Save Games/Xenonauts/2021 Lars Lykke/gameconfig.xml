@@ -1,0 +1,87 @@
+<GameConfig>
+    <v15xKeymappingGuard comment="Custom keymapping built upon default keymappings for v1.5x." />
+    <mouseSpeed value="12" />
+    <keySpeed value="5" />
+    <Volume group="2" value="1.000000" />
+    <Volume group="0" value="0.800000" />
+    <Volume group="1" value="0.800000" />
+    <customSoldierList value="" />
+    <allowFiringReservedTUs value="true" />
+    <showStatsIncrements value="false" />
+    <KeyMapping function="GEMapScrollUp" key="W" />
+    <KeyMapping function="GEMapScrollDown" key="S" />
+    <KeyMapping function="GEMapScrollLeft" key="A" />
+    <KeyMapping function="GEMapScrollRight" key="D" />
+    <KeyMapping function="GEZoomIn" key="-" />
+    <KeyMapping function="GEZoomOut" key="" />
+    <KeyMapping function="GSResetCamera" key=" " />
+    <KeyMapping function="GSLaunchInterceptors" key="Q" />
+    <KeyMapping function="GSSpeed1" key="1" />
+    <KeyMapping function="GSSpeed2" key="2" />
+    <KeyMapping function="GSSpeed3" key="3" />
+    <KeyMapping function="GSSpeed4" key="4" />
+    <KeyMapping function="GSXenopedia" key="F10" />
+    <KeyMapping function="BSGeoscape" key="F1" />
+    <KeyMapping function="BSBase" key="F2" />
+    <KeyMapping function="BSResearch" key="F3" />
+    <KeyMapping function="BSWorkshop" key="F4" />
+    <KeyMapping function="BSPersonnel" key="F6" />
+    <KeyMapping function="BSStore" key="F5" />
+    <KeyMapping function="BSEquip" key="F7" />
+    <KeyMapping function="BSVehicle" key="F8" />
+    <KeyMapping function="BSAircraft" key="F9" />
+    <KeyMapping function="ACPause" key=" " />
+    <KeyMapping function="ACRollLeft" key="Q" />
+    <KeyMapping function="ACRollRight" key="E" />
+    <KeyMapping function="ACSelect1" key="F1" />
+    <KeyMapping function="ACSelect2" key="F2" />
+    <KeyMapping function="ACSelect3" key="F3" />
+    <KeyMapping function="ACSelectAll" key="F4" />
+    <KeyMapping function="ACFire1" key="1" />
+    <KeyMapping function="ACFire2" key="2" />
+    <KeyMapping function="ACFire3" key="3" />
+    <KeyMapping function="ACFire4" key="4" />
+    <KeyMapping function="ACFireAll" key="5" />
+    <KeyMapping function="GCFireModePrimary" key="R" />
+    <KeyMapping function="GCFireModeSecondary" key="L" />
+    <KeyMapping function="GCFireModeBurst" key="B" />
+    <KeyMapping function="GCReserveTUNone" key="" />
+    <KeyMapping function="GCReserveTUSnap" key="" />
+    <KeyMapping function="GCReserveTUNormal" key="" />
+    <KeyMapping function="GCReserveTUAimed" key="" />
+    <KeyMapping function="GCReserveTUBurst" key="" />
+    <KeyMapping function="GCInventory" key="I" />
+    <KeyMapping function="GCCrouch" key="C" />
+    <KeyMapping function="GCAbort" key=" " />
+    <KeyMapping function="GCEndTurn" key="T" />
+    <KeyMapping function="GCCameraUp" key="" />
+    <KeyMapping function="GCCameraDown" key="" />
+    <KeyMapping function="GCCenterOnSoldier" key=" " />
+    <KeyMapping function="GCSelectSoldier1" key="1" />
+    <KeyMapping function="GCSelectSoldier2" key="2" />
+    <KeyMapping function="GCSelectSoldier3" key="3" />
+    <KeyMapping function="GCSelectSoldier4" key="4" />
+    <KeyMapping function="GCSelectSoldier5" key="5" />
+    <KeyMapping function="GCSelectSoldier6" key="6" />
+    <KeyMapping function="GCSelectSoldier7" key="7" />
+    <KeyMapping function="GCSelectSoldier8" key="8" />
+    <KeyMapping function="GCSelectSoldier9" key="9" />
+    <KeyMapping function="GCSelectSoldier10" key="0" />
+    <KeyMapping function="GCSelectSoldier11" key="1" shift="true" />
+    <KeyMapping function="GCSelectSoldier12" key="2" shift="true" />
+    <KeyMapping function="GCSelectSoldier13" key="3" shift="true" />
+    <KeyMapping function="GCSelectSoldier14" key="4" shift="true" />
+    <KeyMapping function="GCSelectSoldier15" key="5" shift="true" />
+    <KeyMapping function="GCSelectSoldier16" key="6" shift="true" />
+    <KeyMapping function="GCSelectVehicle1" key="1" ctrl="true" />
+    <KeyMapping function="GCSelectVehicle2" key="2" ctrl="true" />
+    <KeyMapping function="GCSelectVehicle3" key="3" ctrl="true" />
+    <KeyMapping function="GCSelectVehicle4" key="4" ctrl="true" />
+    <KeyMapping function="GCSelectSmartNextSoldier" key="Tab" />
+    <KeyMapping function="GCSelectSmartNextSoldierFinish" key="Tab" shift="true" />
+    <KeyMapping function="GCSelectNextSoldier" key="Tab" />
+    <KeyMapping function="GCSelectPreviousSoldier" key="Tab" shift="true" />
+    <KeyMapping function="GCMeleeAllWeapons" key="M" />
+    <KeyMapping function="GCQuicksave" key="F5" />
+    <KeyMapping function="GCQuickload" key="F8" />
+</GameConfig>
