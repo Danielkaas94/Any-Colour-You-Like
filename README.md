@@ -16,4 +16,6 @@
 
 [ᕕ( ᐛ )ᕗ](https://youtu.be/SAxpAs1Iaec)
 
+[Disable Control Flow Guard (CFG) for Visual Studio](https://docs.wholetomato.com/default.asp?W790)
+
 # Glædelig Jul 🎅🎄🎁
