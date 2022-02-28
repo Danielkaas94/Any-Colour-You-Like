@@ -18,6 +18,9 @@
 
 [Disable Control Flow Guard (CFG) for Visual Studio](https://docs.wholetomato.com/default.asp?W790)
 
+[Angry Squeaking Gopnik 🐸](https://www.youtube.com/watch?v=rHT9hfHcc6g)
+
+
 # Glædelig Jul 🎅🎄🎁
 
 Join CodeWars with me!: www.codewars.com/r/hGyTsQ
