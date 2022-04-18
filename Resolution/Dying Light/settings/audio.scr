@@ -1,0 +1,35 @@
+!API(s)            // aDS3D, aOpenAL, aXACT, XAudio2, FMOD, NoSound
+!MixFrequency(i)
+!Channels(i)
+!ForceSoftware()
+!ForceSoftwareEAX()
+!ForceNoFXes()
+!Quality3D(s)      // low, medium, high
+!UseEAX()
+!ExtraSounds01()
+!SpeechVolume(i)
+!FXVolume(i)
+!WaveVolume(i) //music
+!MaxVolume(i)
+!MovieVolume(i)
+!MovieVolumeSource(i)
+!GlobalSettings(s)
+!ReverbChannels(i)
+!DebugMode()
+
+!MixerBlocksCount(i)
+
+API("FMOD")
+MixFrequency(48000)
+Channels(40)
+Quality3D("high")
+MaxVolume(40)
+FXVolume(40)
+WaveVolume(40)
+SpeechVolume(40)
+MovieVolume(40)
+MovieVolumeSource(0)
+GlobalSettings("")
+ReverbChannels(1)
+MixerBlocksCount(0)
+
