@@ -10,7 +10,7 @@
 
 [Du er en abe 🐵🐒🦍🦧](https://youtu.be/RC582_ksQqk?t=555)
 
-[Dan Peña](https://youtu.be/RxMYvPy8QwA?t=105)
+[Dan Peña - Show me your friends and I will show you your future](https://youtu.be/20Swjj1xpEI?t=101)
 
 [Uncle Phil Yiffs in Heaven Again](https://youtu.be/Drqj67ImtxI?t=227)
 
