@@ -22,7 +22,8 @@
 
 
 <!-- # Glædelig Jul 🎅🎄🎁 -->
-# God Påske 🐤🐣🐥
+<!-- # God Påske 🐤🐣🐥 -->
+# God Sommer 🌻😎🌞
 
 Join CodeWars with me!: www.codewars.com/r/hGyTsQ
 <p>
