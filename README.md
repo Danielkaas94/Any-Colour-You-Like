@@ -21,10 +21,10 @@
 [Angry Squeaking Gopnik 🐸](https://www.youtube.com/watch?v=rHT9hfHcc6g)
 
 
-<!-- # Glædelig Jul 🎅🎄🎁 -->
+# Glædelig Jul 🎅🎄🎁
 <!-- # God Påske 🐤🐣🐥 -->
 <!-- # God Sommer 🌻😎🌞 -->
-# God Efterår! 🎃🍁🍂
+<!-- # God Efterår! 🎃🍁🍂 -->
 
 Join CodeWars with me!: www.codewars.com/r/hGyTsQ
 <p>
