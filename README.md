@@ -27,9 +27,10 @@
 
 </div>
 
-<!-- # Glædelig Jul 🎅🎄🎁 -->
+# Glædelig Jul 🎅🎄🎁
 <!-- # God Påske 🐤🐣🐥 -->
-# God Sommer 🌻😎🌞
+<!-- # God Sommer 🌻😎🌞 -->
+<!-- # God Efterår! 🎃🍁🍂 -->
 
 Join CodeWars with me!: www.codewars.com/r/hGyTsQ
 <p>
