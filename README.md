@@ -29,7 +29,7 @@
 
 </div>
 
-# Glædelig Jul 🎅🎄🎁
+# Glædelig Jul og Godt Nytår 🎅🎄🎁⛄🎆🆕🆙🎇🎉
 <!-- # God Påske 🐤🐣🐥 -->
 <!-- # God Sommer 🌻😎🌞 -->
 <!-- # God Efterår! 🎃🍁🍂 -->
