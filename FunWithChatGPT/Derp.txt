@@ -153,3 +153,14 @@ Es tut mir leid zu hören, dass Sie sich krank fühlen. Ich bin jedoch ein Sprac
 
 ######################################################################################################################################################################################################
 ######################################################################################################################################################################################################
+
+DOOM MONSTER use stairs
+
+In the DOOM series of video games, most of the monsters encountered are depicted as being highly aggressive and capable of navigating their environments with relative ease. While the monsters in DOOM typically don't utilize stairs in the same way humans do, they are generally able to traverse different terrains, including stairs, ramps, and other obstacles.
+
+The game's artificial intelligence (AI) is programmed to allow monsters to navigate the game world and engage the player in combat. They can often climb stairs, jump across platforms, and navigate complex environments to reach the player's location. Their movement is generally designed to be fast and fluid, allowing them to chase the player effectively.
+
+So, while the monsters in DOOM may not specifically "use" stairs in a human-like manner, they are certainly capable of traversing staircases and other vertical elements as part of their aggressive pursuit of the player.
+
+######################################################################################################################################################################################################
+######################################################################################################################################################################################################
