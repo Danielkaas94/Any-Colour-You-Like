@@ -373,6 +373,190 @@ If there is an error or the status code is not `200`, we print an error message 
 
 Ensure that the `LuaSocket` library is installed and accessible in your Lua environment. You may need to install it separately if it's not already available.
 
+<hr>
+
+In F#, you can make HTTP requests using the `System.Net.Http` namespace, which provides the `HttpClient` class. Here's an example of making an HTTP GET request:
+
+```fsharp
+open System
+open System.Net.Http
+
+let url = "https://api.example.com/data"
+
+let httpClient = new HttpClient()
+
+async {
+    try
+        let! response = httpClient.GetAsync(url) |> Async.AwaitTask
+        response.EnsureSuccessStatusCode()
+        let! responseBody = response.Content.ReadAsStringAsync() |> Async.AwaitTask
+        // Process the response body
+        printfn "%s" responseBody
+    with
+        | ex -> printfn "Error: %s" ex.Message
+}
+|> Async.RunSynchronously
+```
+
+In this example, we open the necessary namespaces (`System` and `System.Net.Http`) to access the required types and methods.
+
+We set the `url` variable to the desired URL.
+
+We create an instance of `HttpClient` using `new HttpClient()`.
+
+Using the `async` computation expression, we define an asynchronous workflow to make the HTTP request.
+
+Inside the workflow, we use `httpClient.GetAsync(url)` to send the GET request and await the response using `Async.AwaitTask`.
+
+We call `response.EnsureSuccessStatusCode()` to ensure that the response is successful (status code in the 2xx range).
+
+Then, we use `response.Content.ReadAsStringAsync()` to read the response body as a string and await the result using `Async.AwaitTask`.
+
+Finally, we process the response body as needed. In this example, we simply print it to the console using `printfn`.
+
+If an exception occurs during the request, we catch it and print an error message.
+
+We execute the asynchronous workflow using `Async.RunSynchronously` to run it synchronously and obtain the result.
+
+Make sure to reference the `System.Net.Http` assembly in your project to use the `HttpClient` class and include the necessary `open` statements at the beginning of your code.
+
+<hr>
+
+In Rust, you can make HTTP requests using the `reqwest` crate, which provides a convenient API for sending HTTP requests. Here's an example of making an HTTP GET request:
+
+First, add `reqwest` as a dependency in your `Cargo.toml` file:
+
+```toml
+[dependencies]
+reqwest = "0.11"
+```
+
+Then, you can use the following code to make an HTTP GET request:
+
+```rust
+use reqwest;
+
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let url = "https://api.example.com/data";
+    
+    let response = reqwest::get(url).await?;
+    
+    if response.status().is_success() {
+        let body = response.text().await?;
+        
+        // Process the response body
+        println!("{}", body);
+    } else {
+        println!("Error: {}", response.status());
+    }
+    
+    Ok(())
+}
+```
+
+In this example, we import the `reqwest` crate.
+
+The `main` function is marked as `async` to allow asynchronous operations.
+
+Inside the `main` function, we set the `url` variable to the desired URL.
+
+We use `reqwest::get(url).await?` to send the HTTP GET request and await the response. The `response` object represents the server's response.
+
+We check if the response status is a success status using `response.status().is_success()`. If it is, we read the response body as a string using `response.text().await?`.
+
+Finally, we process the response body as needed. In this example, we simply print it to the console using `println!`.
+
+If an error occurs during the request, it will be propagated up and printed to the console.
+
+To execute the code, you need to use the `tokio` runtime by marking the `main` function with `#[tokio::main]` attribute.
+
+Ensure that you have `reqwest` crate added as a dependency in your `Cargo.toml` file and run the code using `cargo run`.
+
+<hr>
+
+In Ruby, you can make HTTP requests using the `Net::HTTP` standard library. Here's an example of making an HTTP GET request:
+
+```ruby
+require 'net/http'
+require 'uri'
+
+url = URI.parse('https://api.example.com/data')
+
+http = Net::HTTP.new(url.host, url.port)
+http.use_ssl = true if url.scheme == 'https'
+
+request = Net::HTTP::Get.new(url.request_uri)
+
+response = http.request(request)
+
+if response.code.to_i == 200
+  body = response.body
+  
+  # Process the response body
+  puts body
+else
+  puts "Error: #{response.code} #{response.message}"
+end
+```
+
+In this example, we require the necessary libraries: `net/http` for making HTTP requests and `uri` for parsing the URL.
+
+We parse the URL using `URI.parse`, providing the desired URL as a string.
+
+We create an instance of `Net::HTTP` using `Net::HTTP.new`, passing the host and port extracted from the URL.
+
+If the URL scheme is `https`, we set `http.use_ssl = true` to enable SSL/TLS for secure connections.
+
+We create an HTTP GET request using `Net::HTTP::Get.new`, passing the request URI extracted from the URL.
+
+We send the request using `http.request(request)` and obtain the response.
+
+If the response status code is `200` (indicating a successful response), we extract the response body using `response.body`.
+
+Finally, we process the response body as needed. In this example, we simply print it to the console using `puts`.
+
+If the response status code is not `200`, we print an error message including the response code and message.
+
+To run the code, make sure you have Ruby installed, and execute the script using `ruby script_name.rb`.
+
+<hr>
+
+CoffeeScript is a language that compiles into JavaScript, so you can use JavaScript libraries and syntax to make HTTP requests. In CoffeeScript, you can make an HTTP request using the `XMLHttpRequest` object or by using libraries such as `axios` or `fetch`. Here's an example using the `XMLHttpRequest` object:
+
+```coffeescript
+xhr = new XMLHttpRequest()
+url = 'https://api.example.com/data'
+
+xhr.onreadystatechange = ->
+  if xhr.readyState == 4
+    if xhr.status == 200
+      # Process the response
+      console.log(xhr.responseText)
+    else
+      console.log("Error:", xhr.status)
+
+xhr.open('GET', url, true)
+xhr.send()
+```
+
+In this example, we create a new `XMLHttpRequest` object using `new XMLHttpRequest()`.
+
+We set the `url` variable to the desired URL.
+
+We define the `onreadystatechange` event handler, which is triggered when the state of the request changes. We check if the `readyState` is 4 (indicating that the request is complete) and if the `status` is 200 (indicating a successful response).
+
+Inside the event handler, we process the response by accessing the `responseText` property of the `xhr` object and logging it to the console.
+
+If the `status` is not 200, we log an error message along with the `status` code.
+
+We open the request using `xhr.open('GET', url, true)`, specifying the HTTP method, URL, and `true` to make it an asynchronous request.
+
+Finally, we send the request using `xhr.send()`.
+
+You can compile the CoffeeScript code into JavaScript using a CoffeeScript compiler such as `coffee` or an online tool, and then run the resulting JavaScript code in a browser or a JavaScript runtime environment.
+
+
 <br>
 <hr>
 <hr>
