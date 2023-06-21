@@ -342,6 +342,37 @@ Save the script with a `.bat` extension, and you can execute it from the command
 
 Note that the availability of the `curl` command-line tool depends on your operating system. If `curl` is not installed or not available in the system's PATH, you may need to install it separately or specify the full path to the `curl` executable in your script.
 
+<hr>
+
+In Lua, you can make HTTP requests using the `LuaSocket` library, which provides networking capabilities. Here's an example of making an HTTP GET request using `LuaSocket`:
+
+```lua
+local http = require("socket.http")
+
+local url = "https://api.example.com/data"
+
+local response, status, headers = http.request(url)
+
+if status == 200 then
+  -- Process the response body
+  print(response)
+else
+  print("Error:", status)
+end
+```
+
+In this example, we first require the `socket.http` module to access the HTTP functionality.
+
+We set the `url` variable to the desired URL.
+
+We use `http.request(url)` to send the HTTP GET request and obtain the response. The `response` variable will contain the response body, `status` will contain the response status code, and `headers` will contain the response headers.
+
+If the `status` variable equals `200` (indicating a successful response), we process the `response` body as needed. In this example, we simply print it to the console.
+
+If there is an error or the status code is not `200`, we print an error message along with the `status` code.
+
+Ensure that the `LuaSocket` library is installed and accessible in your Lua environment. You may need to install it separately if it's not already available.
+
 <br>
 <hr>
 <hr>
