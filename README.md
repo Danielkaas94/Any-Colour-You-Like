@@ -651,6 +651,8 @@ You can compile the CoffeeScript code into JavaScript using a CoffeeScript compi
 
 [Jsdoc cheatsheet 🧑‍💻📜](https://devhints.io/jsdoc)
 
+[JavaScript: Bad Practices 🧑‍🏫](https://web.archive.org/web/20210824132819/https://j11y.io/javascript/javascript-bad-practices/)
+
 [Du er en abe 🐵🐒🦍🦧](https://youtu.be/RC582_ksQqk?t=555)
 
 [Uncle Phil Yiffs in Heaven Again](https://youtu.be/Drqj67ImtxI?t=227)
