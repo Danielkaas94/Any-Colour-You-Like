@@ -649,11 +649,9 @@ You can compile the CoffeeScript code into JavaScript using a CoffeeScript compi
 
 [The Cache Refresh Test](https://www.refreshyourcache.com/en/cache-test/)
 
-
+[Jsdoc cheatsheet 🧑‍💻📜](https://devhints.io/jsdoc)
 
 [Du er en abe 🐵🐒🦍🦧](https://youtu.be/RC582_ksQqk?t=555)
-
-[Dan Peña - Show me your friends and I will show you your future](https://youtu.be/20Swjj1xpEI?t=101)
 
 [Uncle Phil Yiffs in Heaven Again](https://youtu.be/Drqj67ImtxI?t=227)
 
