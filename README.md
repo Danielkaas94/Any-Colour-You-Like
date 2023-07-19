@@ -6,7 +6,13 @@
 
 # How to HTTP request
 
+<details>
+
+<summary>JavaScript</summary>
+
 To make an HTTP request in JavaScript, you can use the built-in `XMLHttpRequest` object or the more modern `fetch` API. Here's an example of both approaches:
+
+
 
 Using XMLHttpRequest:
 
@@ -42,7 +48,14 @@ fetch('https://api.example.com/data')
 
 Both approaches allow you to perform various types of requests (GET, POST, etc.) by adjusting the method parameter and adding additional options or data as needed.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>C#</summary>
+
 
 In C#, you can make HTTP requests using the `HttpClient` class, which provides a simple and efficient way to send HTTP requests and handle responses. Here's an example of making an HTTP GET request:
 
@@ -84,7 +97,14 @@ After receiving the response, we call `EnsureSuccessStatusCode` to ensure that t
 
 Make sure to include the necessary `using` statements for the required namespaces (`System` and `System.Net.Http`) at the beginning of your code.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>C++</summary>
+
 
 In C++, you can make HTTP requests using various libraries such as cURL or Boost.Beast. Here's an example of making an HTTP GET request using cURL:
 
@@ -130,7 +150,15 @@ Afterwards, we clean up the cURL handle using `curl_easy_cleanup` and call `curl
 
 Note that to compile and link against cURL, you need to have the cURL library installed on your system and include the appropriate cURL header files and library during the build process. The steps for building and linking against cURL may vary depending on your platform and development environment.
 
+</details>
+
+
 <hr>
+
+<details>
+
+<summary>C</summary>
+
 
 In C, you can make HTTP requests using libraries such as cURL or libcurl. Here's an example of making an HTTP GET request using libcurl:
 
@@ -176,7 +204,13 @@ Afterwards, we clean up the CURL handle using `curl_easy_cleanup` and call `curl
 
 Note that to compile and link against libcurl, you need to have the libcurl library installed on your system and include the appropriate libcurl header files and library during the build process. The steps for building and linking against libcurl may vary depending on your platform and development environment.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>Python</summary>
 
 In Python, you can make HTTP requests using the `requests` library, which provides a simple and intuitive API. Here's an example of making an HTTP GET request:
 
@@ -212,7 +246,14 @@ If an exception is raised during the request, we catch it using `requests.except
 
 Ensure that you have the `requests` library installed before running the code. You can install it using pip: `pip install requests`.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>Java</summary>
+
 
 In Java, you can make HTTP requests using the `java.net.HttpURLConnection` class or by using third-party libraries such as Apache HttpClient or OkHttp. Here's an example of making an HTTP GET request using `java.net.HttpURLConnection`:
 
@@ -269,7 +310,13 @@ If an exception occurs during the request, we catch it and print the stack trace
 
 Note that this is a basic example, and in real-world scenarios, you may need to handle various response codes, handle request headers, or perform more complex operations.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>Go</summary>
 
 In Go, you can make HTTP requests using the built-in `net/http` package. Here's an example of making an HTTP GET request:
 
@@ -322,7 +369,13 @@ If an error occurs during the request, we handle it and print an error message.
 
 You can run the Go code using the `go run` command or build an executable using the `go build` command.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>Batch</summary>
 
 In batch scripting, you can make an HTTP request using the `curl` command-line tool. You can invoke `curl` from your batch script to send HTTP requests to a specified URL. Here's an example of making an HTTP GET request using `curl`:
 
@@ -342,7 +395,13 @@ Save the script with a `.bat` extension, and you can execute it from the command
 
 Note that the availability of the `curl` command-line tool depends on your operating system. If `curl` is not installed or not available in the system's PATH, you may need to install it separately or specify the full path to the `curl` executable in your script.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>Lua</summary>
 
 In Lua, you can make HTTP requests using the `LuaSocket` library, which provides networking capabilities. Here's an example of making an HTTP GET request using `LuaSocket`:
 
@@ -373,7 +432,13 @@ If there is an error or the status code is not `200`, we print an error message 
 
 Ensure that the `LuaSocket` library is installed and accessible in your Lua environment. You may need to install it separately if it's not already available.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>F#</summary>
 
 In F#, you can make HTTP requests using the `System.Net.Http` namespace, which provides the `HttpClient` class. Here's an example of making an HTTP GET request:
 
@@ -420,7 +485,13 @@ We execute the asynchronous workflow using `Async.RunSynchronously` to run it sy
 
 Make sure to reference the `System.Net.Http` assembly in your project to use the `HttpClient` class and include the necessary `open` statements at the beginning of your code.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>Rust</summary>
 
 In Rust, you can make HTTP requests using the `reqwest` crate, which provides a convenient API for sending HTTP requests. Here's an example of making an HTTP GET request:
 
@@ -473,7 +544,13 @@ To execute the code, you need to use the `tokio` runtime by marking the `main` f
 
 Ensure that you have `reqwest` crate added as a dependency in your `Cargo.toml` file and run the code using `cargo run`.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>Ruby</summary>
 
 In Ruby, you can make HTTP requests using the `Net::HTTP` standard library. Here's an example of making an HTTP GET request:
 
@@ -520,7 +597,13 @@ If the response status code is not `200`, we print an error message including th
 
 To run the code, make sure you have Ruby installed, and execute the script using `ruby script_name.rb`.
 
+</details>
+
 <hr>
+
+<details>
+
+<summary>CoffeeScript</summary>
 
 CoffeeScript is a language that compiles into JavaScript, so you can use JavaScript libraries and syntax to make HTTP requests. In CoffeeScript, you can make an HTTP request using the `XMLHttpRequest` object or by using libraries such as `axios` or `fetch`. Here's an example using the `XMLHttpRequest` object:
 
@@ -556,9 +639,9 @@ Finally, we send the request using `xhr.send()`.
 
 You can compile the CoffeeScript code into JavaScript using a CoffeeScript compiler such as `coffee` or an online tool, and then run the resulting JavaScript code in a browser or a JavaScript runtime environment.
 
+</details>
 
-<br>
-<hr>
+
 <hr>
 <br>
 
@@ -566,11 +649,11 @@ You can compile the CoffeeScript code into JavaScript using a CoffeeScript compi
 
 [The Cache Refresh Test](https://www.refreshyourcache.com/en/cache-test/)
 
+[Jsdoc cheatsheet 🧑‍💻📜](https://devhints.io/jsdoc)
 
+[JavaScript: Bad Practices 🧑‍🏫](https://web.archive.org/web/20210824132819/https://j11y.io/javascript/javascript-bad-practices/)
 
 [Du er en abe 🐵🐒🦍🦧](https://youtu.be/RC582_ksQqk?t=555)
-
-[Dan Peña - Show me your friends and I will show you your future](https://youtu.be/20Swjj1xpEI?t=101)
 
 [Uncle Phil Yiffs in Heaven Again](https://youtu.be/Drqj67ImtxI?t=227)
 
