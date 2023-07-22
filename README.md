@@ -674,8 +674,8 @@ You can compile the CoffeeScript code into JavaScript using a CoffeeScript compi
 </div>
 
 <!-- # Glædelig Jul og Godt Nytår 🎅🎄🎁⛄🎆🆕🆙🎇🎉 -->
-# God Påske 🐤🐣🐥
-<!-- # God Sommer 🌻😎🌞 -->
+<!-- # God Påske 🐤🐣🐥 -->
+# God Sommer 🌻😎🌞
 <!-- # God Efterår! 🎃🍁🍂 -->
 
 [Join CodeWars with me! 👨‍💻](https://codewars.com/r/hGyTsQ)
