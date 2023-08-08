@@ -71,3 +71,37 @@ def square_digits4(num):
 
 
 # |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #
+
+def series_sum(n):
+    if n == 0:
+        return "0.00"
+    
+    sum = 0.0
+    denominator = 1
+    
+    for _ in range(n):
+        sum += 1 / denominator
+        denominator += 3
+        
+    return "{:.2f}".format(sum)
+
+
+def series_sum2(n):
+    return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
+
+
+def series_sum3(n):
+    sum = 0.0
+    for i in range(0,n):
+        sum += 1 / (1 + 3 * float(i))
+    return '%.2f' % sum
+
+
+def series_sum4(n):
+    return f'{sum(1/d for d in range(1,n*3,3)):.2f}'
+
+
+series_sum5 = lambda n: '{:.2f}'.format(sum(1.0/(3*i-2) for i in xrange(1, n+1)))
+
+# |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #
+
