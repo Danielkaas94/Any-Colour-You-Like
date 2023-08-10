@@ -78,6 +78,58 @@ def persistence5(n):
 # |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #
 
 
+def high(s):
+    """
+    Highest Scoring Word
+    """
+    def word_score(word):
+        return sum(ord(c) - ord('a') + 1 for c in word)
+
+    words = s.split()
+    highest_score = 0
+    highest_word = ""
+
+    for word in words:
+        score = word_score(word)
+        if score > highest_score:
+            highest_score = score
+            highest_word = word
+
+    return highest_word
+
+
+def high2(x):
+    return max(x.split(), key=lambda k: sum(ord(c) - 96 for c in k))
+
+
+def high3(x):
+    words=x.split(' ')
+    list = []
+    for i in words:
+        scores = [sum([ord(char) - 96 for char in i])]
+        list.append(scores)
+    return words[list.index(max(list))]
+
+
+def high4(x):
+    scoreboard=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+    heck = x.split()
+    score=0
+    score_final=0
+    big_word=[]
+    for each in heck:
+        print(each)
+        for every in each:
+            if every in scoreboard:
+                score= score + scoreboard.index(every) + 1
+                print(score)
+        if score > score_final:
+            score_final = score
+            big_word = each
+            score = 0
+        else:
+            score = 0
+    return big_word
 
 # |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| #
 
