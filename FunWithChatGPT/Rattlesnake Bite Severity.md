@@ -1,4 +1,4 @@
-# How badly is a rattlesnake bite?
+# How badly is a rattlesnake bite? 🐍
 
 A rattlesnake bite can be very serious and potentially life-threatening. Rattlesnakes are venomous snakes found primarily in North and South America. When a rattlesnake bites, it injects venom into the victim through its fangs.
 
@@ -80,7 +80,7 @@ In the absence of antivenom, the following factors influence survival chances:
 It's important to reiterate that antivenom remains the most effective treatment for snake bites, including those from rattlesnakes. Without antivenom, the risks of severe complications and death from a rattlesnake bite increase substantially. If bitten by a rattlesnake or any venomous snake, seeking immediate medical attention is crucial, and any delay in treatment can have serious consequences.
 
 
-# How did the Native in America treat it?
+# How did the Native in America treat it? 🌎
 
 Native Americans had various traditional treatments and remedies for snake bites, although it's important to note that these methods were not scientifically proven and may not be effective. Additionally, practices varied among different tribes and regions. Here are some common traditional treatments used by Native Americans for snake bites:
 
@@ -129,7 +129,7 @@ Of course, here are some more historical and modern perspectives on treating sna
 It's important to emphasize that modern medical treatment, particularly the administration of antivenom and supportive care, remains the most effective and potentially life-saving approach for snake bites. While traditional practices and cultural beliefs are valuable, seeking prompt and appropriate medical care from trained healthcare professionals is crucial for managing snake bites and ensuring the best outcomes for the affected individuals.
 
 
-# Go on
+# What local plants would they use? 🌱☘️🪴🌹🥀🌾🌿🍂🍃🍁💚
 
 Native American tribes utilized various local plants, believing that they had medicinal properties that could potentially help with snake bites. However, it's essential to emphasize that these traditional remedies were based on cultural beliefs and may not have had scientifically proven efficacy. Here are a few examples of plants commonly used in traditional Native American medicine:
 
