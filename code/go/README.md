@@ -1,6 +1,12 @@
 
 # 🐹 Go Learning & Experiments
 
+<div align="center">
+
+[![Go in 100 Seconds](https://img.youtube.com/vi/446E-r0rXHI/0.jpg)](https://youtu.be/446E-r0rXHI)
+
+</div>
+
 ### *"It's time to go!"*
 
 Welcome to my personal Go (Golang) repository!  
