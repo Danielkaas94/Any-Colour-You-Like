@@ -31,6 +31,15 @@ func inc(x *int) {
 
 func main() {
 
+	fmt.Println("Hello, World")
+
+	var myNumber int = 1337
+	otherNumber := 7331
+
+	fmt.Println(myNumber)
+	fmt.Println(otherNumber)
+
+	
 	k := 8
 	inc(&k)
 	fmt.Println(k)
