@@ -1,6 +1,15 @@
 
 # 🐹 Go Learning & Experiments
 
+<div align="center">
+
+[![Go in 100 Seconds](https://img.youtube.com/vi/446E-r0rXHI/0.jpg)](https://youtu.be/446E-r0rXHI)
+
+[![Go (Golang) Tutorial #1 - Introduction & Setup](https://img.youtube.com/vi/etSN4X_fCnM/0.jpg)](https://www.youtube.com/watch?v=etSN4X_fCnM&list=PL4cUxeGkcC9gC88BEo9czgyS72A3doDeM)
+
+</div>
+
+
 ### *"It's time to go!"*
 
 Welcome to my personal Go (Golang) repository!  
