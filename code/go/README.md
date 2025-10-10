@@ -131,6 +131,9 @@ go mod tidy
 * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 * [Gophercises](https://gophercises.com/)
 * [JustForFunc YouTube Series](https://www.youtube.com/c/JustForFunc)
+* [Go Cheatsheet - devhints](https://devhints.io/go)
+* [Go Cheatsheet - Codecademy](https://www.codecademy.com/resources/cheatsheets/language/go)
+
 
 ### Tools
 
