@@ -50,3 +50,15 @@ elif(value == 30000):
 else:
   print("Your \"Investment\" is above $30.000 - No need to sell the kidney of your narcissistic family member.")
 
+
+"""
+✅ Just completed the Python Basics room on TryHackMe!
+
+It’s a great interactive room, using a web-based code editor to learn Python fundamentals and ending with a small Bitcoin investment project.
+
+Something I’ve learned over time: learning is a circle, not a straight line.
+There is nothing wrong with going back to the basics in any subject, that is where true understanding happens.
+Only a fool believes mastery comes from doing something once. Real growth comes from repetition, reflection, and refinement.
+
+#Python #CyberSecurity #TryHackMe #LifelongLearning #GrowthMindset
+"""
