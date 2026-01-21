@@ -665,6 +665,9 @@ You can compile the CoffeeScript code into JavaScript using a CoffeeScript compi
 
 [💫 gfycat - waryfamiliargelada 💫](https://gfycat.com/waryfamiliargelada)
 
+[Dragon Ball Z Dansk Tale](https://archive.org/details/dbz-001-en-kriger-fra-det-ydre-rum-bluray)
+
+
 <div align="Center">
 
 # [🎶⬆🆙 Dream Frequency - Take Me (feat. Debbie Sharp) ⬆🆙🎵](https://youtu.be/mWyeYiFQlQU)
